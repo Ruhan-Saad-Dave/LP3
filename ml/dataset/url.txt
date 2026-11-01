@@ -1,0 +1,7 @@
+https://www.kaggle.com/datasets/yasserh/uber-fares-dataset
+
+https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
+
+https://www.kaggle.com/datasets/abdallamahgoub/diabetes
+
+https://www.kaggle.com/datasets/kyanyoga/sample-sales-data

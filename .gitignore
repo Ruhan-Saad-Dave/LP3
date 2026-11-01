@@ -1,0 +1,108 @@
+# =============================================================================
+# .gitignore - Laboratory Practice - III (LP-III Exam Repository)
+# Reference: exam_list.docx (SPPU 2019 Pattern)
+# Only exam-eligible problem statements from Groups A, B, and C are tracked.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 1. Python Bytecode, Caches & Environments
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.ipynb_checkpoints/
+
+# -----------------------------------------------------------------------------
+# 2. Operating System & Editor / IDE Files
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# -----------------------------------------------------------------------------
+# 3. Reference Documents & Syllabus Manuals (Not source code)
+# -----------------------------------------------------------------------------
+*.pdf
+*.docx
+*.doc
+
+# -----------------------------------------------------------------------------
+# 4. Large Datasets (>50MB total Kaggle CSVs; keep download URLs in url.txt)
+# -----------------------------------------------------------------------------
+ml/dataset/*.csv
+*.csv
+!ml/dataset/url.txt
+
+# -----------------------------------------------------------------------------
+# 5. Generated Plot Images & Artifacts
+# -----------------------------------------------------------------------------
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# -----------------------------------------------------------------------------
+# 6. Non-Exam Syllabus Practicals (Not in exam_list.docx)
+# -----------------------------------------------------------------------------
+# Group A: DAA non-exam files
+daa/binomial_coefficient.py
+daa/huffman.py
+daa/quick_sort.py
+
+# Group B: ML non-exam files
+ml/churn.py
+ml/gradient.py
+
+# Group C: Blockchain non-exam files
+bc/student.sol
+bc/wallet.py
+bc/web3.py
+
+# -----------------------------------------------------------------------------
+# 7. Duplicate Unnumbered Files (Keep standardized numbered versions)
+# -----------------------------------------------------------------------------
+# DAA duplicates
+daa/fibonacci.py
+daa/job_sequencing.py
+daa/fractional_knapsack.py
+daa/dynamic_knapsack.py
+daa/nqueen.py
+
+# ML duplicates
+ml/uber.py
+ml/spam.py
+ml/diabetes.py
+ml/segmentation.py
+
+# Blockchain duplicates
+bc/bank.sol
+bc/create_wallet_metamask.md
+bc/blockchain_survey_report.md
